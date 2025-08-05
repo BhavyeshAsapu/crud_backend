@@ -10,6 +10,10 @@ public class Product {
 	String name;
 	String os;
 	String price;
+
+	// ✅ No-arg constructor
+	public Product() {}
+
 	public int getId() {
 		return id;
 	}
@@ -34,7 +38,4 @@ public class Product {
 	public void setPrice(String price) {
 		this.price = price;
 	}
-	
-	
-
 }
